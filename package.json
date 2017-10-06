@@ -11,6 +11,10 @@
     "liquid",
     "liquid-node"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzoryn/gulp-liquidjs.git"
+  },
   "author": "zzzoryn",
   "license": "ISC",
   "dependencies": {
