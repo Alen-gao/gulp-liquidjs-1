@@ -1,6 +1,6 @@
 {
   "name": "gulp-liquidjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "liquid plugin for gulp",
   "main": "index.js",
   "scripts": {

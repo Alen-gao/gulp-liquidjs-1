@@ -48,7 +48,7 @@ module.exports = function(opts) {
     }
 
     if (file.isBuffer()) {
-      engine.parseAndRender(file.contents.toString())
+      engine.parseAndRender(file.contents.toString(), opts.data || {})
         .then(function(output) {
           file.contents = new Buffer(output);
           this.push(file);
